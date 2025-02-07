@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Microsoft – AI, Cloud, Productivity, Gaming &amp; Apps</title>
+</head>
+
+<body>
+
+
+  <!-- ****************************************************************************************************************** -->
+  <div class="navbar flex items-center p-4 py-5 bg-gray-100">
+    <!-- Left Section -->
+    <div class="left flex items-center">
+      <!-- Hamburger Menu (visible for small screens only) -->
+      <div class="hamburger flex flex-col cursor-pointer mt-1 ml-1 md:hidden">
+        <div class="line bg-black h-0.5 w-5 my-0.5 rounded"></div>
+        <div class="line bg-black h-0.5 w-5 my-0.5 rounded"></div>
+        <div class="line bg-black h-0.5 w-5 my-0.5 rounded"></div>
+      </div>
+
+      <!-- Microsoft Logo -->
+      <div class="logo mx-5 ">
+        <img src="logo.png" alt="Microsoft Logo" class="w-28">
+      </div>
+
+
+      <!-- Navigation Links (hidden for smaller screens) -->
+      <ul class="hidden md:flex space-x-8 ml-6">
+        <li class="text-[16px] text-gray-500 font-medium cursor-pointer hover:text-blue-600">Microsoft 365</li>
+        <li class="text-[16px] text-gray-500 font-medium cursor-pointer hover:text-blue-600">Office</li>
+        <li class="text-[16px] text-gray-500 font-medium cursor-pointer hover:text-blue-600">Copilot</li>
+        <li class="text-[16px] text-gray-500 font-medium cursor-pointer hover:text-blue-600">Windows</li>
+        <li class="text-[16px] text-gray-500 font-medium cursor-pointer hover:text-blue-600">Support</li>
+      </ul>
+    </div>
+
+    <!-- Right Section -->
+    <div class="right flex items-center ml-auto space-x-4">
+
+      <div class="hidden md:block text-[16px] text-gray-500 font-medium cursor-pointer hover:text-blue-600">
+        All Microsoft
+      </div>
+      <!-- Search Icon -->
+      <div class="searchlogo">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0-6.607-6.607Z" />
+        </svg>
+      </div>
+
+      <!-- Cart Icon -->
+      <div class="cart">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+        </svg>
+      </div>
+
+      <!-- Account Icon -->
+      <div class="account">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+        </svg>
+      </div>
+    </div>
+  </div>
+  <!-- ****************************************************************************************************************** -->
+
+
+  <!-- ****************************************************************************************************************** -->
+  <div class="hero relative m-0 p-0">
+    <picture>
+      <source
+        srcset="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Copilot-Native-App-ROW:VP5-1920x600"
+        media="(min-width: 1400px)" data-automation-test-id="HighlightImgSrcXLarge-highlight-uidfa00">
+      <source
+        srcset="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Copilot-Native-App-ROW:VP4-1399x600"
+        media="(min-width: 1084px)" data-automation-test-id="HighlightImgSrcLarge-highlight-uidfa00">
+      <source
+        srcset="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Copilot-Native-App-ROW:VP3-1083x600"
+        media="(min-width: 860px)" data-automation-test-id="HighlightImgSrcMedium-highlight-uidfa00">
+      <source
+        srcset="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Copilot-Native-App-ROW:VP2-859x540"
+        media="(min-width: 540px)" data-automation-test-id="HighlightImgSrcSmall-highlight-uidfa00">
+      <img id="img-highlight-uidfa00"
+        src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Copilot-Native-App-ROW:VP2-859x540"
+        class="card-img w-100" alt="Three screenshots from the Copilot App">
+    </picture>
+
+    <!-- Content to overlay -->
+    <div class="zero1 flex flex-col p-5 absolute top-36 w-[500px] ml-20">
+      <div class="font-sans heading text-3xl font-bold text-gray-800 mb-4">Copilot is your AI Companion</div>
+      <div class="discription text-lg text-gray-600 mb-6 max-w-2xl">Always by your side, ready to support you whenever
+        and wherever you need it.</div>
+      <div class="btn">
+        <button
+          class="bg-blue-800 text-white py-2 px-6 rounded-md hover:bg-blue-700 transition duration-300 ease-in-out">
+          Download Your Copilot App
+        </button>
+      </div>
+    </div>
+  </div>
+  <!-- ****************************************************************************************************************** -->
+
+
+  <!-- ****************************************************************************************************************** -->
+  <div class="zero flex flex-col p-5 bg-gray-100 ">
+    <div class="font-sans heading text-3xl font-bold text-gray-800 mb-4">Copilot is your AI Companion</div>
+    <div class="discription text-lg text-gray-600 mb-6 max-w-2xl">Always by your side, ready to support you whenever and
+      wherever you need it.</div>
+    <div class="btn"><button
+        class="bg-blue-800 text-white py-2 px-6 rounded-md hover:bg-blue-700 transition duration-300 ease-in-out">Download
+        Your Copilot App</button></div>
+  </div>
+  <!-- ****************************************************************************************************************** -->
+
+
+  <!-- ****************************************************************************************************************** -->
+  <hr class="bg-black">
+  <!-- ****************************************************************************************************************** -->
+
+
+  <!-- ****************************************************************************************************************** -->
+  <div class="cards">
+
+    <div class="card1">
+      <div class="border-4 h-fit m-6 mx-5 shadow-lg">
+        <img class="w-full h-52" src="card1.jpg" alt="">
+        <div class="head font-bold text-xl px-2 pt-2">MICROSOFT 365</div>
+        <div class="para px-2 pt-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga, culpa doloremque
+          placeat voluptatibus eos amet cum sequi qui quas veritatis deserunt, at dolorem?</div>
+        <div class="btn"><button
+            class="bg-blue-800 text-white ml-2 mt-2 mb-4 py-2 px-6 rounded-md hover:bg-blue-700 transition duration-300 ease-in-out">Download
+            Now</button></div>
+      </div>
+    </div>
+
+    <div class="card2">
+      <div class="border-4 h-fit m-6 mx-5 shadow-lg">
+        <img class="w-full h-52" src="card2.jpg" alt="">
+        <div class="head font-bold text-xl px-2 pt-2">MICROSOFT 365</div>
+        <div class="para px-2 pt-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga, culpa doloremque
+          placeat voluptatibus eos amet cum sequi qui quas veritatis deserunt, at dolorem?</div>
+        <div class="btn"><button
+            class="bg-blue-800 text-white ml-2 mt-2 mb-4 py-2 px-6 rounded-md hover:bg-blue-700 transition duration-300 ease-in-out">Download
+            Now</button></div>
+      </div>
+    </div>
+
+    <div class="card3">
+      <div class="border-4 h-fit m-6 mx-5 shadow-lg">
+        <img class="w-full h-52" src="card3.jpg" alt="">
+        <div class="head font-bold text-xl px-2 pt-2">MICROSOFT 365</div>
+        <div class="para px-2 pt-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga, culpa doloremque
+          placeat voluptatibus eos amet cum sequi qui quas veritatis deserunt, at dolorem?</div>
+        <div class="btn"><button
+            class="bg-blue-800 text-white ml-2 mt-2 mb-4 py-2 px-6 rounded-md hover:bg-blue-700 transition duration-300 ease-in-out">Download
+            Now</button></div>
+      </div>
+    </div>
+
+    <div class="card4">
+      <div class="border-4 h-fit m-6 mx-5 shadow-lg">
+        <img class="w-full h-52" src="card4.jpg" alt="">
+        <div class="head font-bold text-xl px-2 pt-2">MICROSOFT 365</div>
+        <div class="para px-2 pt-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga, culpa doloremque
+          placeat voluptatibus eos amet cum sequi qui quas veritatis deserunt, at dolorem?</div>
+        <div class="btn"><button
+            class="bg-blue-800 text-white ml-2 mt-2 mb-4 py-2 px-6 rounded-md hover:bg-blue-700 transition duration-300 ease-in-out">Download
+            Now</button></div>
+      </div>
+    </div>
+
+    <div class="card5">
+      <div class="border-4 h-fit m-6 mx-5 shadow-lg">
+        <img class="w-full h-52" src="card5.jpg" alt="">
+        <div class="head font-bold text-xl px-2 pt-2">MICROSOFT 365</div>
+        <div class="para px-2 pt-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga, culpa doloremque
+          placeat voluptatibus eos amet cum sequi qui quas veritatis deserunt, at dolorem?</div>
+        <div class="btn"><button
+            class="bg-blue-800 text-white ml-2 mt-2 mb-4 py-2 px-6 rounded-md hover:bg-blue-700 transition duration-300 ease-in-out">Download
+            Now</button></div>
+      </div>
+    </div>
+
+    <div class="card6">
+      <div class="border-4 h-fit m-6 mx-5 shadow-lg">
+        <img class="w-full h-52" src="card6.jpg" alt="">
+        <div class="head font-bold text-xl px-2 pt-2">MICROSOFT 365</div>
+        <div class="para px-2 pt-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga, culpa doloremque
+          placeat voluptatibus eos amet cum sequi qui quas veritatis deserunt, at dolorem?</div>
+        <div class="btn"><button
+            class="bg-blue-800 text-white ml-2 mt-2 mb-4 py-2 px-6 rounded-md hover:bg-blue-700 transition duration-300 ease-in-out">Download
+            Now</button></div>
+      </div>
+    </div>
+
+    <div class="card7">
+      <div class="border-4 h-fit m-6 mx-5 shadow-lg">
+        <img class="w-full h-52" src="card7.jpg" alt="">
+        <div class="head font-bold text-xl px-2 pt-2">MICROSOFT 365</div>
+        <div class="para px-2 pt-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga, culpa doloremque
+          placeat voluptatibus eos amet cum sequi qui quas veritatis deserunt, at dolorem?</div>
+        <div class="btn"><button
+            class="bg-blue-800 text-white ml-2 mt-2 mb-4 py-2 px-6 rounded-md hover:bg-blue-700 transition duration-300 ease-in-out">Download
+            Now</button></div>
+      </div>
+    </div>
+
+    <div class="card8">
+      <div class="border-4 h-fit m-6 mx-5 shadow-lg">
+        <img class="w-full h-52" src="card8.jpg" alt="">
+        <div class="head font-bold text-xl px-2 pt-2">MICROSOFT 365</div>
+        <div class="para px-2 pt-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga, culpa doloremque
+          placeat voluptatibus eos amet cum sequi qui quas veritatis deserunt, at dolorem?</div>
+        <div class="btn"><button
+            class="bg-blue-800 text-white ml-2 mt-2 mb-4 py-2 px-6 rounded-md hover:bg-blue-700 transition duration-300 ease-in-out">Download
+            Now</button></div>
+      </div>
+    </div>
+
+    <div class="card8">
+      <div class="border-4 h-fit m-6 mx-5 shadow-lg">
+        <img class="w-full h-52" src="card9.jpg" alt="">
+        <div class="head font-bold text-xl px-2 pt-2">MICROSOFT 365</div>
+        <div class="para px-2 pt-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga, culpa doloremque
+          placeat voluptatibus eos amet cum sequi qui quas veritatis deserunt, at dolorem?</div>
+        <div class="btn"><button
+            class="bg-blue-800 text-white ml-2 mt-2 mb-4 py-2 px-6 rounded-md hover:bg-blue-700 transition duration-300 ease-in-out">Download
+            Now</button></div>
+      </div>
+    </div>
+
+    <div class="card10">
+      <div class="border-4 h-fit m-6 mx-5 shadow-lg">
+        <img class="w-full h-52" src="card10.jpg" alt="">
+        <div class="head font-bold text-xl px-2 pt-2">MICROSOFT 365</div>
+        <div class="para px-2 pt-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga, culpa doloremque
+          placeat voluptatibus eos amet cum sequi qui quas veritatis deserunt, at dolorem?</div>
+        <div class="btn"><button
+            class="bg-blue-800 text-white ml-2 mt-2 mb-4 py-2 px-6 rounded-md hover:bg-blue-700 transition duration-300 ease-in-out">Download
+            Now</button></div>
+      </div>
+    </div>
+
+  </div>
+  <!-- ****************************************************************************************************************** -->
+
+
+  <!-- ****************************************************************************************************************** -->
+  <div class="follow-microsoft">
+    <ul class="flex ml-6 space-x-10 pb-20">
+      <li class="text-[16px] font-medium mt-2">Follow Microsot</li>
+      <li class="text-[25px] font-extrabold">f</li>
+      <li class="text-[25px] font-extrabold">X</li>
+      <li class="text-[25px] font-extrabold">in</li>
+    </ul>
+  </div>
+  <!-- ****************************************************************************************************************** -->
+
+
+  <!-- ****************************************************************************************************************** -->
+  <div class="container1 bg-[#f2f2f2] w-full">
+    <ul class="footer-list">
+      <li class="footer-title">What's New</li>
+      <li>Surface Book 3</li>
+      <li>Surface Pro</li>
+      <li>Microsoft Copilot</li>
+      <li>Microsoft 365</li>
+      <li>Explore Microsoft Products</li>
+      <li>Windows 11 apps</li>
+    </ul>
+  
+    <ul class="footer-list">
+      <li class="footer-title">Microsoft Store</li>
+      <li>Account Profile</li>
+      <li>Download Center</li>
+      <li>Returns</li>
+      <li>Order Tracking</li>
+    </ul>
+  
+    <ul class="footer-list">
+      <li class="footer-title">Education</li>
+      <li>Microsoft in education</li>
+      <li>Devices for education</li>
+      <li>Microsoft Teams for Education</li>
+      <li>Microsoft 365 Education</li>
+      <li>Office Education</li>
+      <li>Educator training and development</li>
+      <li>Deals for students and parents</li>
+      <li>Azure for students</li>
+    </ul>
+  
+    <ul class="footer-list">
+      <li class="footer-title">Business</li>
+      <li>Microsoft Cloud</li>
+      <li>Microsoft Security</li>
+      <li>Azure</li>
+      <li>Dynamics 365</li>
+      <li>Microsoft 365</li>
+      <li>Microsoft Advertising</li>
+      <li>Microsoft 365 Copilot</li>
+      <li>Microsoft Teams</li>
+    </ul>
+  
+    <ul class="footer-list">
+      <li class="footer-title">Developer & IT</li>
+      <li>Microsoft Developer</li>
+      <li>Documentation</li>
+      <li>Microsoft Learn</li>
+      <li>Microsoft Tech Community</li>
+      <li>Azure Marketplace</li>
+      <li>AppSource</li>
+      <li>Microsoft Power Platform</li>
+      <li>Visual Studio</li>
+    </ul>
+  
+    <ul class="footer-list">
+      <li class="footer-title">Company</li>
+      <li>Careers</li>
+      <li>About Microsoft</li>
+      <li>Company news</li>
+      <li>Privacy at Microsoft</li>
+      <li>Investors</li>
+      <li>Sustainability</li>
+    </ul>
+  </div>
+  
+  
+  <!-- ****************************************************************************************************************** -->
+
+
+
+
+</body>
+
+</html>
